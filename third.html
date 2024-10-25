@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success Captcha </title>
+    <link rel="icon" href="imges/captcha.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="showRandomCode()">
+    <div class="information1">
+        <h2>page3:</h2>
+      <input type="text" id="captcha1" readonly >
+      <input type="text" required id="UserInput1" placeholder="Enter the captcha">
+      <button class="check" onclick="checkInp()">check</button>
+      <a target="_blank" href="https://www.youtube.com/"><button onclick="shownext()" id="linkads">Click here</button></a>
+     <a href="#section"><button onclick="showRandomCode2()" class="next3" id="next1" >Get code<i class="fa-solid fa-arrow-right"></i></button></a>
+    </div>
+    <section id="section">
+        <p>Code : <span id="codeshow"></span></p>
+    </section>
+
+
+
+    <script src="fct.js"></script>
+</body>
+</html>
